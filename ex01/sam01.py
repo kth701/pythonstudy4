@@ -30,7 +30,7 @@ print(type(10), type(10.245))
 print(5>2, type(5>2), type(True), type(False))
 
 
-
+# https://github.com/kth701/pythonstudy4
 
 
 
