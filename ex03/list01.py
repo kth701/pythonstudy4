@@ -47,3 +47,33 @@
 # print(num, len(num))
 
 
+# lst = [1,2,3,4,5]
+# print(lst, type(lst))
+
+# for i in lst:
+#     print(lst[:i])
+
+# print( 5 in lst) # 값을 포함하고 있으면 True판별
+# print( 5 not in lst) #값을 포함하고 있지 않으면 True
+
+# 리스트 내포(list안에 for와 if문)
+
+x = [2,4,1,5,7]
+lst = [i**2 for i in x]
+print(x, lst)
+
+# temp = []
+# for i in x:
+#     temp.append(i**2)
+#     print(temp)
+#     print("----")
+
+# print(temp)
+
+#조건에 부합한 데이터만 처리
+lst2 =[ i*2 for i in x if i%2 == 0]
+print(lst2)
+
+
+
+
