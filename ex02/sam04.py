@@ -46,3 +46,11 @@ for out in range(5): # out:0-4
 print("-"*10)
 for i in range(5):
     print(list1[i])
+
+print("-"*10)
+list2 = [1,2,3,4,5]
+list3 = [*list2, *list2] # list1 + list1
+
+print(list3)
+list4 = [*list2, 100,200,300]
+print(list4)
