@@ -50,17 +50,27 @@
 # a1,b1,c1 = pytha(2,1)
 # print("함수반환값:",a1,b1,c1)
 
-def mysum(start, end):
-    sum = 0
-    for i in range(start, end+1):
-        sum += i # +i..
+# def mysum(start, end):
+#     sum = 0
+#     for i in range(start, end+1):
+#         sum += i # +i..
 
-    return sum
+#     return sum
 
-print( mysum(1,10))
-print( mysum(1,100))
-print( mysum(5,10))
+# print( mysum(1,10))
+# print( mysum(1,100))
+# print( mysum(5,10))
 
-# 가변인자
+
+# 오버로딩 기능 지원 문제 발생
+# def a():
+#     print("hello")
+# def a(name):
+#     print(name)
+# def a(n1,n2):
+#     print(n1,n2)
+
+
+
 
 
