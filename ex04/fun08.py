@@ -10,7 +10,7 @@ def a(): # outer function()
     print('a()함수 종료시 b()함수의 주소를 반환')
     return b
 
-# f1 = a()
+# f1 = a() # f1에 b()함수의 주소 => f1()함수 실행
 # f1() # inner function b()함수가 실행
 
 # 함수 클로저 예시
@@ -31,13 +31,13 @@ def out_func(data):
     return tot, avg
 
 # 외부 함수 호출(실행)
-# total, average = out_func(data) # tot(), avg()함수의 주소를 반환
+total, average = out_func(data) # tot(), avg()함수의 주소를 반환
 
-# tot_data = total()
-# print('tot=', tot_data)
+tot_data = total()
+print('tot=', tot_data)
 
-# avg_data = average(tot_data)
-# print('avg=', avg_data)
+avg_data = average(tot_data)
+print('avg=', avg_data)
 
 def double(x):
     return 2*x
