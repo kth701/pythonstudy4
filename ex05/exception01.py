@@ -41,3 +41,6 @@ except Exception as e:
     print('오류 정보: ', e)
 
 print("프로그램 정상 종료하기")
+
+
+
