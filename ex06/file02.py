@@ -36,3 +36,6 @@ try:
 
 except Exception as e:
     print('Error :', e)
+
+finally:
+    ftest.close()
