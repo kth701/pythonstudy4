@@ -12,7 +12,7 @@ res = req.urlopen(url)
 source = res.read()
 
 # 2. 소스 디코딩(문자 디코딩)
-source = source.decode("utf-8")
+source = source.decode("utf-8") 
 
 # 3. html 파싱
 html = BeautifulSoup(source, 'html.parser')
